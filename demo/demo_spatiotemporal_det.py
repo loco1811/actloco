@@ -47,7 +47,7 @@ plate_green = plate_green.split('-')
 plate_green = [hex2color(h) for h in plate_green]
 
 
-def visualize(frames, annotations, plate=plate_blue, max_num=5):
+def visualize(frames, annotations, plate=plate_green, max_num=5):
     """Visualize frames with predicted annotations.
 
     Args:
